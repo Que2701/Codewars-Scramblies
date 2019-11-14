@@ -1,0 +1,7 @@
+D:\Source\Repos\Projects\Codewars\Codewars-Scramblies\Scramblies\ScrambliesApp\bin\Debug\ScrambliesApp.exe.config
+D:\Source\Repos\Projects\Codewars\Codewars-Scramblies\Scramblies\ScrambliesApp\bin\Debug\ScrambliesApp.exe
+D:\Source\Repos\Projects\Codewars\Codewars-Scramblies\Scramblies\ScrambliesApp\bin\Debug\ScrambliesApp.pdb
+D:\Source\Repos\Projects\Codewars\Codewars-Scramblies\Scramblies\ScrambliesApp\obj\Debug\ScrambliesApp.csprojAssemblyReference.cache
+D:\Source\Repos\Projects\Codewars\Codewars-Scramblies\Scramblies\ScrambliesApp\obj\Debug\ScrambliesApp.csproj.CoreCompileInputs.cache
+D:\Source\Repos\Projects\Codewars\Codewars-Scramblies\Scramblies\ScrambliesApp\obj\Debug\ScrambliesApp.exe
+D:\Source\Repos\Projects\Codewars\Codewars-Scramblies\Scramblies\ScrambliesApp\obj\Debug\ScrambliesApp.pdb
