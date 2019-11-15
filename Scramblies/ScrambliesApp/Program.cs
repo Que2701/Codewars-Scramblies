@@ -15,14 +15,28 @@ namespace ScrambliesApp
             Console.WriteLine(Scramble("katas", "steak"));
             Console.WriteLine(Scramble("scriptjavx", "javascript"));
             Console.WriteLine(Scramble("scriptsjava", "javascripts"));
+            Console.WriteLine(Scramble("javscripts", "javascript"));
             Console.WriteLine(Scramble("aabbcamaomsccdd", "commas"));
             Console.WriteLine(Scramble("commas", "commas"));
             Console.WriteLine(Scramble("sammoc", "commas"));
         }
         public static bool Scramble(string str1, string str2)
         {
-            var r = str1.ToList().Select(x => x).Where(x => str2.Contains(x)).Count();
-            return str1.ToList().Select(x => x).Where(x => str2.Contains(x)).Count() == str2.Length;
+            List<char> string1 = str1.ToList();
+            List<char> string2 = str2.ToList();
+            var results = string.Empty;
+
+            string1.ForEach(x =>
+            {
+                var index = string2.FindIndex(y => y == x);
+                if (index >= (int)uint.MinValue)
+                {
+                    string2.RemoveAt(index);
+
+                }
+            });
+
+            return string2.Count() == 0;
         }
 
     }
